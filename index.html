@@ -19,7 +19,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Frontend Bootcamp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmnue">
@@ -60,7 +60,8 @@
                     </p>
                     <button class="btn btn-primary btn-lg">Start The Enrollment</button>
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block mt-5" src="./assets/images/hand-drawn-web-developers_23-2148819604.webp" alt="showcase">
+                <img class="img-fluid w-50 d-none d-sm-block mt-5"
+                    src="./assets/images/hand-drawn-web-developers_23-2148819604.webp" alt="showcase">
             </div>
         </div>
     </section>
@@ -154,20 +155,22 @@
         <div class="container">
             <div class="row align-items-center justfiy-content-between">
                 <div class="col-md">
-                    <img  class="img-fluid" src="./assets/images/0_05LWrV4S4Q-Bhmin.jpg" alt="No-content">
+                    <img class="img-fluid" src="./assets/images/0_05LWrV4S4Q-Bhmin.jpg" alt="No-content">
 
                 </div>
 
                 <div class="col-md p-5">
                     <h2>Learn The Fundementals</h2>
-                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus rem quo molestiae
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus rem quo
+                        molestiae
                         distinctio culpa nesciunt est vero, officiis, itaque aspernatur sequi? Aliquid, ex odio? Quod
                         repellat ex enim totam?
                     </p>
-                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero velit ipsam
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero velit
+                        ipsam
                         necessitatibus eum voluptatibus.
                     </p>
-                    <a href="#" class="btn btn-light">> Read More</a>
+                    <a href="#" class="btn btn-light mt-3">> Read More</a>
 
                 </div>
 
@@ -176,31 +179,253 @@
     </section>
 
 
-    <section class="bg-dark p-5">
+    <section class="bg-dark p-5 text-light">
         <div class="container">
             <div class="row align-items-center justfiy-content-between">
 
                 <div class="col-md p-5">
                     <h2 class="text-light">Learn React</h2>
-                    <p class="lead my-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus rem quo molestiae
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus rem quo
+                        molestiae
                         distinctio culpa nesciunt est vero, officiis, itaque aspernatur sequi? Aliquid, ex odio? Quod
                         repellat ex enim totam?
                     </p>
-                    <p class="lead my-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero velit ipsam
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero velit
+                        ipsam
                         necessitatibus eum voluptatibus.
                     </p>
-                    <a href="#" class="btn btn-light">> Read More</a>
+                    <a href="#" class="btn mt-3">> Read More</a>
 
                 </div>
 
                 <div class="col-md">
-                    <img  class="img-fluid" src="./assets/images/logo-og.png" alt="No-content">
+                    <img class="img-fluid" src="./assets/images/logo-og.png" alt="No-content">
 
                 </div>
 
             </div>
         </div>
     </section>
+
+
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+
+                <!-- item 1 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Where exactly are you located ?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
+                            omnis fuga architecto possimus esse tempore porro ex, ipsam quaerat, voluptates nihil eaque.
+                            Doloribus, facere nisi nemo porro deleniti suscipit exercitationem.</div>
+                    </div>
+                </div>
+
+
+                <!-- item 2 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            What do I need to know ?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            How do I sign Up ?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Our Instructors</h2>
+            <p class="text-center text-white mb-5">
+                Our instructors all have +5 years working as a web developer in the industry.
+
+            </p>
+
+            <div class="row text-center g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./assets/images/IMG_20210116_001329_663.jpg"
+                                class=" img-fluid rounded-circle mb-3" alt="No-content">
+
+                                <h5 class="card-title">Mustafa Adel</h5>
+                                <p class="card-text">A 2023 graduate with a B.Sc. in Computer science from the Faculty of
+                                    Computer and Information Sciences at Ain Shams University. I am passionate about various
+                                    things & I believe that passion is the key to success. In my free time I enjoy doing
+                                    several things from studying online courses to problem solving to reading and doing hand
+                                    crafts. Constantly working on developing myself in several aspects to keep up with the
+                                    pace of the evolution that’s happening.</p>
+                                <a href="https://www.linkedin.com/in/mustafa-elgmal-6ba21121b/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/MustafaElgmal">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+               
+
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./assets/images/IMG_20210116_001329_663.jpg"
+                                class=" img-fluid rounded-circle mb-3" alt="No-content">
+
+                                <h5 class="card-title">Mustafa Adel</h5>
+                                <p class="card-text">A 2023 graduate with a B.Sc. in Computer science from the Faculty of
+                                    Computer and Information Sciences at Ain Shams University. I am passionate about various
+                                    things & I believe that passion is the key to success. In my free time I enjoy doing
+                                    several things from studying online courses to problem solving to reading and doing hand
+                                    crafts. Constantly working on developing myself in several aspects to keep up with the
+                                    pace of the evolution that’s happening.</p>
+                                <a href="https://www.linkedin.com/in/mustafa-elgmal-6ba21121b/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/MustafaElgmal">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./assets/images/IMG_20210116_001329_663.jpg"
+                                class=" img-fluid rounded-circle mb-3" alt="No-content">
+
+                                <h5 class="card-title">Mustafa Adel</h5>
+                                <p class="card-text">A 2023 graduate with a B.Sc. in Computer science from the Faculty of
+                                    Computer and Information Sciences at Ain Shams University. I am passionate about various
+                                    things & I believe that passion is the key to success. In my free time I enjoy doing
+                                    several things from studying online courses to problem solving to reading and doing hand
+                                    crafts. Constantly working on developing myself in several aspects to keep up with the
+                                    pace of the evolution that’s happening.</p>
+                                <a href="https://www.linkedin.com/in/mustafa-elgmal-6ba21121b/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/MustafaElgmal">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./assets/images/IMG_20210116_001329_663.jpg"
+                                class=" img-fluid rounded-circle mb-3" alt="No-content">
+
+                                <h5 class="card-title">Mustafa Adel</h5>
+                                <p class="card-text">A 2023 graduate with a B.Sc. in Computer science from the Faculty of
+                                    Computer and Information Sciences at Ain Shams University. I am passionate about various
+                                    things & I believe that passion is the key to success. In my free time I enjoy doing
+                                    several things from studying online courses to problem solving to reading and doing hand
+                                    crafts. Constantly working on developing myself in several aspects to keep up with the
+                                    pace of the evolution that’s happening.</p>
+                                <a href="https://www.linkedin.com/in/mustafa-elgmal-6ba21121b/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/MustafaElgmal">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <footer class="p-5 bg-dark text-center text-white position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 frontend Bootcamp</p>
+        </div>
+    </footer>
+
+
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
